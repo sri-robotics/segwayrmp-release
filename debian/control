@@ -1,0 +1,12 @@
+Source: ros-hydro-rmp-teleop
+Section: misc
+Priority: extra
+Maintainer: Thomas de Candia <thomas.decandia@sri.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-rmp-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rmp-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-rmp-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Description: The rmp_teleop package provides teleoperation functionalities for a Segway Robotics Mobility Platform. This package currently supports the xbox wireless joytsick.
