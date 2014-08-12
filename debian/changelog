@@ -1,0 +1,8 @@
+ros-hydro-rmp-description (0.0.2-0quantal) quantal; urgency=high
+
+  * Add changelog files.
+  * Move license and readme files.
+
+ -- Thomas de Candia <thomas.decandia@sri.com>  Tue, 12 Aug 2014 07:00:00 -0000
+
+
