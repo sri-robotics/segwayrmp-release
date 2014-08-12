@@ -1,0 +1,12 @@
+Source: ros-hydro-rmp-msgs
+Section: misc
+Priority: extra
+Maintainer: Thomas de Candia <thomas.decandia@sri.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rmp-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-std-msgs
+Description: The rmp_msgs package defines rmp specific messages such as motor status, audio command, ...
