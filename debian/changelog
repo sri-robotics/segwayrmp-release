@@ -1,0 +1,8 @@
+ros-hydro-segwayrmp (0.0.2-0precise) precise; urgency=high
+
+  * Add segwayrmp metapackage.
+  * Move license and readme files.
+
+ -- Thomas de Candia <thomas.decandia@sri.com>  Tue, 12 Aug 2014 07:00:00 -0000
+
+
